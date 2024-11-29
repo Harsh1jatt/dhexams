@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar = ({ currentTab, setCurrentTab }) => {
   return (
     <div className="sidebar">
-      <h2>Admin Dashboard</h2>
+      <h2 id="adminHead">Admin Dashboard</h2>
       <ul>
         <li onClick={() => setCurrentTab('Dashboard')} className={currentTab === 'Dashboard' ? 'active' : ''}>Dashboard</li>
         <li onClick={() => setCurrentTab('Students')} className={currentTab === 'Students' ? 'active' : ''}>Students</li>
