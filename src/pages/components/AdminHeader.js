@@ -61,7 +61,7 @@ const AdminHeader = () => {
     <header id="header" className="header">
       <div className="greeting">
         <b>{Greeting()}</b>
-        <b className="date">{getFormattedDate()}</b>
+        <b className="date">({getFormattedDate()})</b>
       </div>
       <div className="adminaction">
         <div className="instituteLogo">
