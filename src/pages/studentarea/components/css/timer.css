@@ -1,0 +1,12 @@
+.timePlease {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}

@@ -1,0 +1,56 @@
+.dashboardPage{
+    margin: 0;
+    padding: 0;
+}
+#dashboard {
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    background: rgb(54, 208, 255);
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#dashboard .left {
+    width: 50%;
+}
+
+#dashboard h1 {
+    font-size: 2.2vw;
+}
+
+#dashboard p {
+    font-size: 1.6vw;
+}
+
+#dashboard .left .cose{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cose .exams, .cose .student{
+    background: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cose .exams .data, .cose .student .data{
+    padding: 5px;
+}
+.cose .exams .data #headtext, .cose .student .data #headtext2 {
+    font-size: 1.5vw;
+}
+.cose .exams .data #examCount, .cose .student .data #studentCount {
+    font-size: 1.3vw;
+}
+.cose .icon{
+    background: #fff;
+    border-right: 1px solid rgb(136, 136, 136);
+}

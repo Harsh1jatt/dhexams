@@ -1,0 +1,87 @@
+.Sprofile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .loading {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  
+  .SProfileImage img {
+    width: 120px;
+    height: 120px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    border: 3px solid #007bff;
+  }
+  
+  .Sdetails {
+    flex: 1;
+    margin-left: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .Sdetails div {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .Sdetails div span {
+    font-weight: bold;
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .Sdetails .StudentName,
+  .Sdetails .Institute,
+  .Sdetails .InstituteShortName,
+  .Sdetails .RollNumber,
+  .Sdetails .DOB {
+    font-size: 18px;
+  }
+  
+  .Sbtns {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .Ssave-btn,
+  .Slogout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .Ssave-btn {
+    background-color: #28a745;
+  }
+  
+  .Ssave-btn:hover {
+    background-color: #218838;
+  }
+  
+  .Slogout-btn {
+    background-color: #dc3545;
+  }
+  
+  .Slogout-btn:hover {
+    background-color: #c82333;
+  }
+  

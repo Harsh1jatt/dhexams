@@ -1,0 +1,72 @@
+.SelectExam {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .exam-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .exam-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .exam-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .exam-card h2 {
+    font-size: 1.8em;
+    color: #0275d8;
+    margin-bottom: 15px;
+  }
+  
+  .exam-card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn-select {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0275d8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-select:hover {
+    background-color: #025aa5;
+  }
+  

@@ -1,0 +1,85 @@
+.question-block{
+  /* height: 312px; */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+
+}
+.question-section{
+  box-shadow: 10px 10px 20px black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+  overflow: hidden;
+  flex-direction: column;
+  flex: 3;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.question-section h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  height: 100px;
+  /* background: red; */
+  padding: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.question-section form {
+  font-size: 20px;
+  margin-left: 20px;
+  /* background:  blue; */
+  display: grid;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+.question-section form label {
+  white-space: nowrap;
+}
+.question-section form label myoption{
+  margin-left: -30px;
+}
+
+.question-section form label p{
+  color: rgb(54, 54, 54);
+  display: inline;
+
+}
+
+.question-section form label input[type="radio"] {
+  margin-right: 20px;
+  margin-left: 0px;
+  display: inline;
+  width: 10px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-top: 30px; */
+}
+
+.actions .btn-review,
+.actions .btn-clear {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-review {
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+
+.btn-clear {
+    background-color: #d9534f;
+    color: white;
+}

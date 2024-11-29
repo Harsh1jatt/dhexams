@@ -1,0 +1,20 @@
+.navigation-tabs {
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    border-bottom: 2px solid #d6d6d6;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #e8eef6;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #ffffff;
+  }
+  

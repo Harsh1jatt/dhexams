@@ -1,0 +1,241 @@
+.student-card {
+  width: 100%;
+  max-width: 1024px;
+  /* Equivalent to max-w-4xl */
+  margin: 0 auto;
+  /* Equivalent to mx-auto */
+}
+
+.no-students {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+  color: #888;
+}
+
+#students h1{
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.student-card-content {
+  padding: 24px;
+  /* Equivalent to p-6 */
+}
+
+.students .head {
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid blue;
+  width: 80%;
+}
+
+.head div {
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ */
+
+ /* General styles for a professional look */
+.table-container {
+  /* max-width: 800px; */
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table thead {
+  background-color:  rgb(54, 208, 255);
+  color: #ffffff;
+}
+
+.student-table th,
+.student-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+  font-weight: bold;
+}
+
+.image-cell {
+  text-align: center;
+}
+
+.student-image {
+  width: 50px;
+  height: 50px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
+.action-buttons {
+  display: flexbox;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  margin:  10px;
+  margin-right: 0px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+
+.view-more-btn {
+  padding: 10px 20px;
+  margin: 20px auto;
+  display: block;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-more-btn:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Edit Student Pop Up */
+
+
+.modal-overlay {
+  position: fixed;
+  top: 5px;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1000;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-content-s {
+  background: #fff;
+  margin-top: 5px;
+  height: 100vh;
+  padding: 40px;
+  padding-top: 10px;
+  border-radius: 20px;
+  width: 450px;
+  text-align: left;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+.modal-content-s h2{
+  text-align: center;
+}
+.modal-content-s form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input{
+  padding: 10px;
+  border: 1px solid #45a049;
+  border-radius: 10px;
+}
+
+input:hover{
+  background: #f0f0f0;
+}
+
+.preview-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+button{
+  padding: 10px;
+  border: 1px solid green;
+  background: rgb(32, 235, 32);
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: all ease .4s;
+}
+button:hover{
+  background: rgb(0, 201, 0);
+}
+button.danger{
+  background: rgb(255, 56, 56);
+  border: 1px solid red;
+}
+
+button.danger:hover{
+  background: rgb(197, 24, 24);
+}

@@ -1,0 +1,119 @@
+.Exam {
+    height: 100%;
+    width: 100%;
+
+}
+
+header {
+    background-color: #e8eef6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d6d6d6;
+    box-shadow: 10px 0px 10px black;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-left img {
+    border-right: 2px solid blue;
+    padding-right: 10px;
+}
+
+.header-left h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.header-left .Titles {
+    padding-left: 10px;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.header-right span {
+    display: flex;
+    font-size: 1.1em;
+    /* font-weight: bold; */
+    color: #333;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.user-info p {
+    font-weight: bold;
+}
+
+.user-info img {
+    width: 60px;
+    height: 60px;
+    /* border-radius: 50%; */
+    margin-right: 10px;
+}
+
+.user-info .details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+}
+
+.nav-tabs {
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    border-bottom: 2px solid #d6d6d6;
+}
+
+.nav-tabs .tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #e8eef6;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+}
+
+.nav-tabs .tab.active {
+    background-color: #ffffff;
+}
+
+.main-content {
+    display: flex;
+    /* padding: 20px; */
+    position: relative;
+}
+.title{
+    text-align: left;
+}
+p.title{
+    margin-top: -10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+    border-top: 2px solid #d6d6d6;
+}
+
+
+
+
+
+/* rgb(162, 163, 164) */

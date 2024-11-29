@@ -1,0 +1,89 @@
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+.login-container {
+    /* background: url(/assets/rare.png) no-repeat center;
+    background-size: 100% 80%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    background: #E7EDF5;
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 0px 20px black;
+}
+.header img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 50px;
+}
+.header h1{
+    margin: 0;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(5, 5, 5, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: black;
+    font-weight: bolder;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #e8eef6;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #025aa5;
+}

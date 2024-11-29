@@ -1,0 +1,159 @@
+/* Styles for the Exam Page similar to Students Page */
+.examsContainer{
+  position: relative;
+  margin-top: 20px;
+  padding: 20px;
+}
+.minwidth{
+  width: 200px;
+}
+.exam-card {
+    /* width: 10%; */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #exams h1{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .exam-card-content {
+    padding: 24px;
+  }
+  
+  .exams .head {
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 80%;
+  }
+  
+  .table-container {
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exam-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .exam-table thead {
+    background-color: rgb(54, 208, 255);
+    color: #ffffff;
+  }
+  
+  .exam-table th,
+  .exam-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .exam-table td{
+    background: #fff;
+  }
+  .action-buttons {
+    display: flexbox;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 6px 12px;
+    margin: 10px;
+    margin-right: 0px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+  }
+  
+  .view-btn{
+    padding: 6px 10px; 
+    margin-left: 10px;
+  }
+  .view-more-btn {
+    padding: 10px 20px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-more-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Modal Styles */
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    /* left: auto; */
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    align-items: left;
+    z-index: 1000;
+  }
+  
+  .modal-content-2 {
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    /* width: 50px; */
+    min-width: 350px;
+    max-width: 400px;
+    /* text-align: center; */
+  }
+  
+  .modal-content-2 form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: left;
+    text-align: left;
+  }
+
+  /* .modal-content form input{
+    width: 100%;
+  } */
+  
+  button.danger {
+    background: rgb(255, 56, 56);
+    border: 1px solid red;
+  }
+  
+  button.danger:hover {
+    background: rgb(197, 24, 24);
+  }
+  
