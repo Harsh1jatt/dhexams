@@ -30,6 +30,8 @@ body {
 .sidebar h2 {
   font-size: 22px;
   margin-bottom: 20px;
+  text-shadow: 3px 3px 9px black;
+  color: white;
 }
 
 .sidebar ul {
