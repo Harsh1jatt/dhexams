@@ -38,7 +38,7 @@ const ODashboard = () => {
     instituteFormData.append('ownerName', formData.ownerName);
     instituteFormData.append('password', formData.password);
     instituteFormData.append('email', formData.email);
-    instituteFormData.append('email', formData.phone);
+    instituteFormData.append('phone', formData.phone);
     instituteFormData.append('uniqueId', formData.uniqueId);
     instituteFormData.append('instituteName', formData.instituteName);
     instituteFormData.append('shortName', formData.shortName);
